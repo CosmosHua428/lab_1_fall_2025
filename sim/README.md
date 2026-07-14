@@ -11,3 +11,12 @@ Planned experiments:
 - Torque saturation
 - Observation and command delay
 - Sinusoidal trajectory tracking
+
+Run the sinusoidal frequency sweep from the repository root:
+
+```powershell
+python -m sim.sinusoidal_tracking
+```
+
+Add `--show` to display the plots after saving them. Without this flag the
+script is suitable for headless and automated runs.
